@@ -4,7 +4,7 @@ import requests
 from aiogram import Bot, Dispatcher, types, executor
 import os
 
-API_TOKEN = os.getenv("BOT_TOKEN")
+API_TOKEN = os.getenv("TELEGRAM_TOKEN")
 PICWISH_API_KEY = os.getenv("PICWISH_API_KEY")
 
 bot = Bot(token=API_TOKEN)
